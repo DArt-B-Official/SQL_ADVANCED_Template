@@ -8,9 +8,11 @@
 
 
 
-**(수행 인증샷은 필수입니다.)** 
+**👀 (수행 인증샷은 필수입니다.)** 
 
 > 프로그래머스 문제를 풀고 '정답입니다' 문구를 캡쳐해서 올려주시면 됩니다. 
+
+
 
 ## SQL_ADVANCED_1st_TIL 
 
@@ -21,33 +23,6 @@
 ### 15.2.20 WITH (Common Table Expressions)
 
 - `WITH RECURSIVE`에 대한 내용은 추후에 공부합니다. 해당 링크에서 `WITH`에 해당하는 부분만 정리해보세요. 
-
-
-
-
-
-### 공식 문서 활용 팁
-
->  **MySQL 공식 문서는 영어로 제공되지만, 크롬 브라우저에서 공식 문서를 열고 이 페이지 번역하기에서 한국어를 선택하면 번역된 버전으로 확인할 수 있습니다. 다만, 번역본은 문맥이 어색한 부분이 종종 있으니 영어 원문과 한국어 번역본을 왔다 갔다 하며 확인하거나, 교육팀장의 정리 예시를 참고하셔도 괜찮습니다.**
-
-
-
-
-## 1️⃣ 학습 내용
-> 아래의 링크를 통해 *MySQL 공식문서*로 이동하실 수 있습니다.
->
-> - SubQueries : MySQL 공식문서 
->
-> https://dev.mysql.com/doc/refman/8.0/en/subqueries.html
->
-> (한국어 버전)
->
-> - CTE(공통 테이블 표현식) : MySQL 공식문서
->
-> https://dev.mysql.com/doc/refman/8.0/en/with.html
->
-> (한국어 버전)
-
 
 
 
@@ -67,11 +42,38 @@
 <br>
 
 
-**두 문제 중에서 한 문제는 SubQuery와 CTE를 사용한 방법을 각각 활용해서 2개의 답변을 제시해주세요**
+### 공식 문서 활용 팁
+
+>  **MySQL 공식 문서는 영어로 제공되지만, 크롬 브라우저에서 공식 문서를 열고 이 페이지 번역하기에서 한국어를 선택하면 번역된 버전으로 확인할 수 있습니다. 다만, 번역본은 문맥이 어색한 부분이 종종 있으니 영어 원문과 한국어 번역본을 왔다 갔다 하며 확인하거나, 교육팀장의 정리 예시를 참고하셔도 괜찮습니다.**
 
 
-## 2️⃣ 학습 내용 정리하기
+
+# 1️⃣ 학습 내용 
+
+> 아래의 링크를 통해 *MySQL 공식문서*로 이동하실 수 있습니다.
+>
+> - SubQueries : MySQL 공식문서 
+>
+> https://dev.mysql.com/doc/refman/8.0/en/subqueries.html
+>
+> (한국어 버전)
+> https://dart-b-official.github.io/posts/mysql-subqueries/
+
+
+> - CTE(공통 테이블 표현식) : MySQL 공식문서
+>
+> https://dev.mysql.com/doc/refman/8.0/en/with.html
+>
+> (한국어 버전)
+> https://dart-b-official.github.io/posts/mysql-cte/
+
 <!-- 여기까진 그대로 둬 주세요-->
+
+
+
+
+
+# 2️⃣ 학습 내용 정리하기
 
 ---
 
@@ -107,6 +109,8 @@
 
 # 3️⃣ 실습 문제
 
+**두 문제 중에서 한 문제는 SubQuery와 CTE를 사용한 방법을 각각 활용해서 2개의 답변을 제시해주세요**
+
 ## 프로그래머스 문제 
 
 https://school.programmers.co.kr/learn/courses/30/lessons/131123
@@ -116,6 +120,18 @@ https://school.programmers.co.kr/learn/courses/30/lessons/131123
 https://school.programmers.co.kr/learn/courses/30/lessons/131115
 
 > 가격이 제일 비싼 식품의 정보 출력하기 (SUM, MAX, MIN, SubQuery) : Lev 2
+
+
+
+---
+
+## 문제 인증란
+
+<!-- 이 주석을 지우고 여기에 문제 푼 인증사진을 올려주세요. -->
+
+
+
+---
 
 
 ## 문제 1
@@ -143,6 +159,15 @@ GROUP BY customer_id;
 
 
 
+## 참고자료
+
+서브쿼리를 사용하는 이유가 너무 어려우신 분들을 위해 참고자료를 첨부합니다. 아래 블로그를 통해서 더욱 쉽게 공부해보시고 문제를 풀어보세요.
+
+1. [SQL] 서브쿼리는 언제 쓰는걸까? 
+   https://project-notwork.tistory.com/38
+
+2. [SQLD] 서브 쿼리 (SubQeury) 개념 및 종류
+   https://bommbom.tistory.com/entry/%EC%84%9C%EB%B8%8C-%EC%BF%BC%EB%A6%ACSub-Query-%EA%B0%9C%EB%85%90-%EB%B0%8F-%EC%A2%85%EB%A5%98
 
 
 ### 🎉 수고하셨습니다.
